@@ -33,7 +33,7 @@ defmodule Harmonium.MixProject do
   defp deps do
     [
       {:phoenix_html, "~> 3.1"},
-      {:phoenix_live_view, "~> 0.16.0"},
+      {:phoenix_live_view, "~> 0.20.0"},
       {:excoveralls, "~> 0.10.4", only: :test},
       {:phoenix_ecto, "~> 4.4", only: :test},
       {:ex_doc, "~> 0.20.0", only: :dev}
